@@ -8,8 +8,8 @@ var bodyParser = require("body-parser");
 
 
 // Define from/to constants used to form and send each notification email
-var EMAIL_FROM = "no-reply@your-domain.com";
-var EMAIL_RCPT = "you@your-domain.com";
+var EMAIL_FROM = "ns8783@intl.att.com";
+var EMAIL_RCPT = "ns8783@intl.att.com";
 
 
 // Define a subject for the email
@@ -25,7 +25,7 @@ var EMAIL_SUBJECT = "Trigger notification";
 //
 // var EMAIL_BODY =
 //     "Temperature measured by the birdi device has reached the limit.\n" +
-//     "Current temperature is %s ºC";
+//     "Current temperature is %s oC";
 //
 // In this example we use data from the trigger event that comes in each request
 // the API sends to us. Check out below where we form the body to see what other data
