@@ -9,7 +9,7 @@ var bodyParser = require("body-parser");
 
 // Define from/to constants used to form and send each notification email
 var EMAIL_FROM = "ns8783@intl.att.com";
-var EMAIL_RCPT = "ns8783@intl.att.com";
+var EMAIL_RCPT = "nao@saitoinc.net";
 
 
 // Define a subject for the email
